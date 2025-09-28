@@ -1,3 +1,10 @@
+(*
+ * queue.c
+ *class 1 : QueueNode
+ *class 2 : Queue
+ *class 3 : Main
+ *)
+--1. class QueueNode
 class QueueNode {
     node : Object;
     next : QueueNode;
@@ -20,7 +27,7 @@ class QueueNode {
         }
     };
 };
-
+--2. class QueueNode
 class Queue {
     head : QueueNode; 
     tail : QueueNode;  
@@ -96,7 +103,7 @@ class Queue {
         }
     };
 };
-
+--3. class Main
 class Main {
     main() : Object {
         let q : Queue <- (new Queue).init(),
